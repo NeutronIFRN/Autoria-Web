@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    margin: 0px;
+    background-color: #ececec;
+}
+.cabecalho {
+    background-image: url(fotos/vialactea.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: sticky;
+    width: 100%;
+    height: 119px;
+}
+#h1_header {
+    color: #000000;
+    padding: 10px;
+    font-size: 48px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -8px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.links a {
+    background-image: url(fotos/galaxia.jpg);
+    background-size: cover;
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 38px;
+    font-size: 25px;
+    border-radius: 20px;
+}
